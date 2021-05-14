@@ -6,9 +6,10 @@ import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app-routing.module";
 import { HomeComponent } from "./home/home.component";
 import { SurveyComponent } from "./survey/survey.component";
+import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, SurveyComponent],
+  declarations: [AppComponent, HomeComponent, SurveyComponent, ConfirmDialogComponent],
   imports: [
     BrowserModule,
     MaterialModule,
